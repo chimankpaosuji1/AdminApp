@@ -1,0 +1,45 @@
+.table {
+  .cellWrapper {
+    display: flex;
+    align-items: center;
+
+    
+    .image {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+  }
+
+  .status {
+    padding: 5px 20px;
+    border-radius: 20px;
+    // width: 100%;
+    border: 1px solid #CCCFD4;
+
+
+    .circle {
+      // width: 3px;
+      border-radius: 50px;
+      
+    }
+
+
+    &.Reconciled {
+      color: green;
+      
+      width: 100px;
+      
+    }
+    &.Pending {
+      color: goldenrod;
+      width: 100px;
+    }
+    &.Unreconcilled {
+      color: #7F8FA4;
+      width: 100px;
+    }
+  }
+}

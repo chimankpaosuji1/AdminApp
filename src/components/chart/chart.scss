@@ -1,0 +1,66 @@
+.chart {
+  flex: 4;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+
+  .chartContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+    .chartDate {
+      flex: 7;
+      font-family: 'Segoe UI';
+      font-size: 18px;
+      font-weight: bold;
+      color: #4F4F4F;
+    }
+    .chartMonth {
+      flex: 3;
+      
+      select {
+        width: 60%;
+        font-size: 12px;
+        border: 1px solid #DDE0E3;
+        border-radius: 4.25px;
+        color: #7F8FA4;
+        padding: 4px;
+        outline: none;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+       box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        
+      }
+    }
+
+    .chartNav {
+      flex: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+   
+      .iconNav {
+          display: flex;
+          padding: 0.5px 10px;
+          align-items: center;
+          justify-content: center;
+          border-radius: 7px;
+          border: 1px solid #DDE0E3;
+          -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+          box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      
+          .icon {
+            width: 12px;
+            color: #DDE0E3;
+            align-items: center;
+          justify-content: center;
+          cursor: pointer;
+            }
+      }
+    }
+  }
+  .chartContainer1 {
+
+  }
+}
