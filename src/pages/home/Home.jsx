@@ -1,5 +1,4 @@
 import React from "react";
-import Chart from "../../components/chart/Chart";
 import Charts from "../../components/charts/Chart";
 import Featured from "../../components/featured/Featured";
 import Navbar from "../../components/navbar/Navbar";
@@ -7,7 +6,6 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Widget from "../../components/widget/Widget";
 import WidgetHeading from "../../components/WidgetHeading/WidgetHeading";
 import './home.scss';
-import Datatable from "../../components/datatable/Datatable";
 import List from "../../components/table/Table";
 
 const Home = () => {

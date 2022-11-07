@@ -13,7 +13,8 @@ const List = () => {
     {
       id:1,
       item: "Apple Mac Book 15” 250 SSD 12GB",
-      img:  "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
+      img: "VM",
+      
       price: "$73430",
       transaction: 1234567890,
       time: "12:30",
@@ -25,7 +26,7 @@ const List = () => {
     {
       id:2,
       item: "Apple Mac Book 15” 250 SSD 12GB",
-      img:  "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
+      img:  "VM",
       price: "$73430",
       transaction: 1234567890,
       time: "12:30",
@@ -37,7 +38,7 @@ const List = () => {
     {
       id:3,
       item: "Apple Mac Book 15” 250 SSD 12GB",
-      img:  "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
+      img:  "VM",
       price: "$73430",
       transaction: 1234567890,
       time: "12:30",
@@ -49,7 +50,7 @@ const List = () => {
     {
       id:4,
       item: "Apple Mac Book 15” 250 SSD 12GB",
-      img:  "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
+      img:  "VM",
       price: "$73430",
       transaction: 1234567890,
       time: "12:30",
@@ -61,7 +62,7 @@ const List = () => {
     {
       id:5,
       item: "Apple Mac Book 15” 250 SSD 12GB",
-      img:  "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
+      img:  "VM",
       price: "$73430",
       transaction: 1234567890,
       time: "12:30",
@@ -73,7 +74,7 @@ const List = () => {
     {
       id:6,
       item: "Apple Mac Book 15” 250 SSD 12GB",
-      img:  "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
+      img:  "VM",
       price: "$73430",
       transaction: 1234567890,
       time: "12:30",
@@ -85,7 +86,7 @@ const List = () => {
     {
       id:7,
       item: "Apple Mac Book 15” 250 SSD 12GB",
-      img:  "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
+      img:  "VM",
       price: "$73430",
       transaction: 1234567890,
       time: "12:30",
@@ -97,7 +98,7 @@ const List = () => {
     {
       id:8,
       item: "Apple Mac Book 15” 250 SSD 12GB",
-      img:  "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
+      img:  "VM",
       price: "$73430",
       transaction: 1234567890,
       time: "12:30",
@@ -109,7 +110,7 @@ const List = () => {
     {
       id:9,
       item: "Apple Mac Book 15” 250 SSD 12GB",
-      img:  "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
+      img:  "VM",
       price: "$73430",
       transaction: 1234567890,
       time: "12:30",
@@ -121,7 +122,7 @@ const List = () => {
     {
       id:10,
       item: "Apple Mac Book 15” 250 SSD 12GB",
-      img:  "https://m.media-amazon.com/images/I/81hH5vK-MCL._AC_UY327_FMwebp_QL65_.jpg",
+      img:  "VM",
       price: "$73430",
       transaction: 1234567890,
       time: "12:30",
@@ -152,7 +153,7 @@ const List = () => {
             <TableRow key={row.id}>             
               <TableCell className="tableCell">
                 <div className="cellWrapper">
-                  <img src={row.img} alt="" className="image" />
+                  <span className="image">{row.img}</span>
                   {row.item}
                 </div>
               </TableCell>

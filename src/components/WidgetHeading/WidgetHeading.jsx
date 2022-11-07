@@ -1,5 +1,4 @@
 import React from 'react'
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import './widgetHeading.scss'
 
